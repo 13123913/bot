@@ -1,0 +1,21 @@
+{
+  "name": "malware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/13123913/bot/issues"
+  },
+  "homepage": "https://github.com/13123913/bot#readme",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "nodemon": "^2.0.22",
+    "telegraf": "^4.12.2"
+  }
+}

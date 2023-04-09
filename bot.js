@@ -1,0 +1,7 @@
+const { Telegraf } = require('telegraf')
+const bot = new Telegraf('6199223755:AAG8UQF9vPC48nKQZrL-B9P71ljHu1n1Jz8') 
+bot.start((ctx) => ctx.reply('This is a malware store where you can buy all kinds of Malware.\ndeveloped:  Maxim ')) 
+bot.help((ctx) => ctx.reply('If you have any questions, please contact @Maxim680')) 
+bot.on('sticker', (ctx) => ctx.reply('')) 
+bot.hears('hi', (ctx) => ctx.reply('Hey there')) 
+bot.launch() 
