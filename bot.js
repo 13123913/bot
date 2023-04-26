@@ -1,5 +1,5 @@
 import {Telegraf} from 'telegraf';
-const bot = new Telegraf('6199223755:AAGxrD4Nw8Mm7jPMKahj_kMEzohVjzvg9OU');
+const bot = new Telegraf('TOKEN');
  
     bot.command('admins', ctx => ctx.reply("Developers: @Maxim680"));
 
